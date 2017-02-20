@@ -5,6 +5,6 @@ function* powGenerator() {
 }
 
 let g = powGenerator();
-console.log(g.next().value);        // = ?
-console.log(g.next(10).value);      // = ?
+console.log(g.next(2).value);        // = ?
+console.log(g.next(5).value);      // = ?
 console.log(g.next(2).value);       // = ?

@@ -2,7 +2,7 @@
 let workspace = {
     name: 'Moja',
     f: function () {
-        let list = ['Pasja', 'Atena', 'Współpraca'];
+        var list = ['ukochana', 'najlepsza', 'praca'];
 
         list.forEach((item) => {
             console.log(this.name + ' ' + item);

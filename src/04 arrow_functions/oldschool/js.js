@@ -1,12 +1,13 @@
 "use strict";
-let workspace = {
+var workspace = {
     name: 'Moja',
     f: function () {
-        let list = ['Pasja', 'Atena', 'Współpraca'];
-        let self = this;
+        var list = ['ukochana', 'najlepsza', 'praca'];
+    //    var self = this;
 
         list.forEach(function(item) {
-            console.log(self.name + ' ' + item);
+            //console.log(self.name + ' ' + item);
+            console.log(this.name + ' ' + item);
         });
     }
 };
